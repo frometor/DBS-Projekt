@@ -63,7 +63,7 @@ ALTER TABLE genmov ADD CONSTRAINT pk_genmov PRIMARY KEY(mov_id,gen_id);
 ALTER TABLE genmov ADD CONSTRAINT genmov_mov_id FOREIGN KEY (mov_id) REFERENCES movies(mov_id) ON DELETE NO ACTION ON UPDATE NO ACTION;
 ALTER TABLE genmov ADD CONSTRAINT genmov_gen_id FOREIGN KEY (gen_id) REFERENCES genre(gen_id) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
-linux:
+for linux import of csv file:
 COPY imdb FROM '/etc/postgresql/9.3/csv/imdb_top100t_janosch.csv' WITH DELIMITER E'\t' NULL 'NA'; 
 
 INSERT INTO movies (mov_id, mov_name, year, rating, votes, runtime) SELECT DISTINCT imdbID, name, year, rating, votes, runtime FROM imdb;
