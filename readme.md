@@ -5,7 +5,8 @@ For the project we used:
 * a PostgreSQL database named movies (SQL create statments included)
 * jdbc for PostgreSQL to connect to the database which we downloaded from here: (https://jdbc.postgresql.org)
 * a self developed API named dbs.jar 
-  * located inside DBSProjekt/WebContent/WEB-INF/lib 
+  * located inside dbsProjekt/WebContent/WEB-INF/lib 
+  * or you can see the *.java files inside the DBS_API folder 
 * Apache Tomcat together with Java Serverpages for displaying the content 
 * HTML & CSS together with Twitter Bootstrap for a better GUI
  
