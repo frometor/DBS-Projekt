@@ -7,9 +7,9 @@ For the project we used:
 * a self developed API named dbs.jar 
   * located inside dbsProjekt/WebContent/WEB-INF/lib 
   * or you can see the *.java files inside the DBS_API folder 
-* Apache Tomcat together with Java Serverpages for displaying the content 
+* Apache Tomcat together with Java Server Pages for hosting the content 
 * HTML & CSS together with Twitter Bootstrap for a better GUI
  
-I did not attached the imdb_top100k.csv because I don't want to infringe any copyrights.
+I did not attach the imdb_top100k.csv because I don't want to infringe any copyrights.
 
 If you have any questions feel free to contact me.
