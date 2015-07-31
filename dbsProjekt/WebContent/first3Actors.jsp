@@ -30,8 +30,10 @@
 		java.sql.Connection conn = null;
 		java.sql.Statement st = null;
 		Class.forName("org.postgresql.Driver");
-		//			String url = "jdbc:postgresql://localhost:5432/imdb?&user=postgres&password=***REMOVED***";
-		String url = "jdbc:postgresql://localhost:5432/movies?&user=postgres&password=***REMOVED***";
+		
+		/* add your databasename, db-username and db-password here*/
+		String url = "jdbc:postgresql://localhost:5432/databasename?&user=username&password=password";
+
 		conn = java.sql.DriverManager.getConnection(url);
 
 		MyDBSAPIImplementation test = new MyDBSAPIImplementation(conn);
